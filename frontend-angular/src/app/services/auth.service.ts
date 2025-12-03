@@ -40,7 +40,7 @@ export interface User {
   providedIn: 'root'
 })
 export class AuthService {
-  private readonly API_URL = 'http://localhost:8080/ecomarket/api';
+  private readonly API_URL = 'http://18.205.104.117:8080/ecomarket/api';
   private readonly TOKEN_KEY = 'auth_token';
   private readonly USER_KEY = 'auth_user';
 
