@@ -1,6 +1,5 @@
 export const environment = {
   production: true,
-  // Para Docker local: el navegador accede via localhost
-  // Para AWS: reemplaza con tu ALB o API Gateway URL
-  apiUrl: 'http://localhost:8080/ecomarket/api'
+  // AWS EC2 deployment
+  apiUrl: 'http://18.205.104.117:8080/ecomarket/api'
 };
